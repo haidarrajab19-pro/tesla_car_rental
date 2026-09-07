@@ -13,6 +13,7 @@ class DocApp  extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       child: MaterialApp(
+        
         title: "Api",
         theme: ThemeData( 
     //    primaryColor: ColorsManager.mainpr,

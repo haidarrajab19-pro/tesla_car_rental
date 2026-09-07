@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class AppColors {
   // ألوان الخلفية والتدرج الشعاعي
   static const Color radialGreenCenter = Color(0xFF1E3A27);

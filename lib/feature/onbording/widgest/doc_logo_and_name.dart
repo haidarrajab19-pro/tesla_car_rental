@@ -11,13 +11,14 @@ class DocLogoAndName extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+
       alignment: Alignment.center,
       children: [
         // 1. عنصر الخلفية المائل ( النقشة / اللوغو الخلفي )
         Transform.rotate(
           angle: 27.55 * (math.pi / 180),
           child: SvgPicture.asset(
-            'assets/svgs/logo.svg',
+            'assets/svgs/logod.svg',
             width: 360.w,
             fit: BoxFit.contain,
           ),
@@ -38,7 +39,7 @@ class DocLogoAndName extends StatelessWidget {
             ),
             SizedBox(height: 10.h),
             SvgPicture.asset(
-              'assets/svgs/tesla.svg',
+              'assets/svgs/teslalo.svg',
               height: 30.h,
             ),
             SizedBox(height: 10.h),
