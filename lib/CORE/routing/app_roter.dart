@@ -1,14 +1,18 @@
 import 'package:api/CORE/routing/routs.dart';
 import 'package:api/feature/onbording/on_bording_Screen.dart';
+
 import 'package:api/feature/ui/logic_screen.dart';
 import 'package:flutter/material.dart';
+
+
 
 class AppRouter {
 
   Route generateRoute (RouteSettings settings) {
     switch (settings.name) {
+   
       
-      case Routes.onbordingScreen:
+      case Routes.onboardingScreen:
         return MaterialPageRoute(builder: (_) => const OnbordingScreen());
         case Routes.LoginScreen:
         return MaterialPageRoute(builder: (_) => const LogicScreen());
