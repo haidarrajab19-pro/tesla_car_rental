@@ -1,8 +1,10 @@
 import 'package:api/CORE/routing/routs.dart';
-import 'package:api/CORE/theming/colors.dart';
+
+// import 'package:api/CORE/theming/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart'; // أضف هذا السطر
 import './CORE/routing/app_roter.dart';
+
 
 class DocApp  extends StatelessWidget {
   final AppRouter appRouter ;
@@ -20,14 +22,14 @@ class DocApp  extends StatelessWidget {
     // scaffoldBackgroundColor: ColorsManager.secpnd,
         ),
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.onbordingScreen,
+       initialRoute: Routes.onboardingScreen, 
         onGenerateRoute: appRouter.generateRoute,
       ),  
 
    
    
 
-
+  
     );
   }
 }
