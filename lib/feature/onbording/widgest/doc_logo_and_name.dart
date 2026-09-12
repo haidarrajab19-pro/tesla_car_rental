@@ -32,7 +32,7 @@ class DocLogoAndName extends StatelessWidget {
             Text(
               "Let's pick up a",
               textAlign: TextAlign.center,
-              style: TextStyles.font24BLack700Weight.copyWith(
+              style: TextStyles.fontBLack1.copyWith(
                 color: AppColors.white,
                 fontSize: 32.sp,
               ),
@@ -46,7 +46,7 @@ class DocLogoAndName extends StatelessWidget {
             Text(
               "for you",
               textAlign: TextAlign.center,
-              style: TextStyles.font24BLack700Weight.copyWith(
+              style: TextStyles.fontBLack1.copyWith(
                 color: AppColors.white,
                 fontSize: 32.sp,
               ),

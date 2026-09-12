@@ -29,7 +29,7 @@ class Button extends StatelessWidget {
             child: Text(
               "Get Started",
               textAlign: TextAlign.center,
-              style: TextStyles.font24BLack700Weight.copyWith(
+              style: TextStyles.fontBLack1.copyWith(
                 color: AppColors.white,
                 fontSize: 14.sp,
                 fontWeight: FontWeight.w400,

@@ -12,4 +12,10 @@ class AppColors {
   static const Color mainGreen = Color(0xFF131313);
   static const Color grey = Color(0xFF757575);
   static const Color white = Colors.white;
+
+// ألوان الخطوط
+static const Color font1 = Colors.black;
+static const Color font2 = Colors.green;
+static const Color font3 = Colors.white70;
+
 }
