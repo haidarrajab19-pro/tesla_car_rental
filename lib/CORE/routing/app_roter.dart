@@ -1,6 +1,7 @@
 import 'package:api/CORE/routing/routs.dart';
+import 'package:api/feature/logic/logic_screnn.dart';
 import 'package:api/feature/onbording/on_bording_Screen.dart';
-import 'package:api/feature/ui/logic_screen.dart';
+// import 'package:api/feature/ui/logic_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -10,8 +11,8 @@ class AppRouter {
       
       case Routes.onbordingScreen:
         return MaterialPageRoute(builder: (_) => const OnbordingScreen());
-        case Routes.LoginScreen:
-        return MaterialPageRoute(builder: (_) => const LogicScreen());
+    case Routes.LoginScreen:
+  return MaterialPageRoute(builder: (_) => const LoginScreen());
       default:
         return MaterialPageRoute(builder: (_) => Scaffold(
           body: Center(
